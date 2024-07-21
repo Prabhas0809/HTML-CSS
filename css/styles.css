@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    color: black;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/417173/pexels-photo-417173.jpeg?cs=srgb&dl=pexels-pixabay-417173.jpg&fm=jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 150px;
+    color: black;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 4vmin;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background-color: #fc036b;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.ctn{
+    padding: 8px 15px;
+    background: #fc036b;
+    height: 40px;
+    width: 90px;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+ul{
+    list-style: none;
+}
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+.nav-links li{
+    margin: 0 30px;
+    cursor: pointer;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: #f0f0f0;
+    font-weight: bold;
+}
+.nav-links li:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+.active{
+    color: #fc036b;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+section{
+    width: 100%;
+
+    margin: 80px auto;
+}
+.title{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(73, 73, 126);
+}
+.toursize{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    height: 600px;
+    margin: 20px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+.card-image1{
+margin-bottom: 1em;
+height: 300px;
+width: 100%;
+padding: 10%;
+cursor: pointer;
+background-image: url(https://w0.peakpx.com/wallpaper/920/734/HD-wallpaper-snowmanali-manali-scenery-snowfall-winter.jpg);
+}
+.card-image2{
+margin-bottom: 1em;
+height: 300px;
+width: 100%;
+padding: 10%;
+cursor: pointer;
+background-image: url(https://cdn.pixabay.com/photo/2020/01/16/04/52/munnar-4769654_1280.jpg);
+}
+.card-image3{
+margin-bottom: 1em;
+height: 300px;
+width: 100%;
+padding: 10%;
+cursor: pointer;
+background-image: url(https://img.traveltriangle.com/blog/wp-content/uploads/2020/01/og-Things-to-do-in-Darjeeling_14th-jan.jpg);
+}
+.card-image4{
+margin-bottom: 1em;
+height: 300px;
+width: 100%;
+padding: 10%;
+cursor: pointer;
+background-image: url(https://cdn.editage.com/insights/editagecom/production/styles/detail_page_image/public/Trees%20in%20the%20Amazon%20make%20their%20own%20rain%20%28original%29_0.jpeg?itok=k6SNkCd_);
+background-image: cover;
+}
+.card-image5{
+margin-bottom: 1em;
+height: 300px;
+width: 100%;
+padding: 10%;
+cursor: pointer;
+background-image: url(https://www.euttaranchal.com/tourism/photos/auli-8385285.jpg);
+}
+.card-image6{
+margin-bottom: 1em;
+height: 300px;
+width: 100%;
+padding: 10%;
+cursor: pointer;
+background-image: url(https://imgcld.yatra.com/ytimages/image/upload/t_seo_Hotel_w_930_h_550_c_fill_g_auto_q_40_f_jpg/v1502167260/Hotel/Coorg/00009869/TheTamaraCoorg-exterior-view-of-cottages_qyMNqR.jpg);
+background-image: cover;
+}
+.card-title{
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+.card-text{
+    font-size: 20px;
+    text-align: start;
+    color: black;
+    cursor: pointer;
+}
+.card:hover{
+transform: scale(1.1);
+transition: 0.3s;
+}
+button{
+    background-color: #fc036b;
+    color: white;
+    height: 36px;
+    width: 74px;
+    font-weight: bold;
+    border-radius: 18px;
+    border: none;
+    margin-left: 190px;
+    cursor: pointer;
+}
+.space{
+    height: 90px;
+}
+#explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://static.westernunion-microsites.com/blog/uploads/2017/11/solo-travel.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+}
+.explore-content{
+    width: 60%;
+    padding: 50px;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+.explore-content h1{
+    font-size: 7vmin;
+}
+.explore-content .line{
+    margin-bottom: 50px;
+}
+.explore-content p{
+    color: black;
+}
+.btn{
+    background-color: #fc036b;
+    color: #f0f0f0;
+    margin-left: 240px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+.btn:hover{
+    background-color: #fc036b;
+    color: #f0f0f0;
+    transform: scale(1.3);
+    transition: 0.3s;
+}
+#plans{
+    height: 600px;
+}
+.img{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img img{
+    height: 250px;
+    width: 400px;
+    border-radius: 4%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+.img1:hover{
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.img2:hover{
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.img3:hover{
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.img4:hover{
+    transform: scale(1.3);
+    transition: 0.4s;
+}
+.content-col{
+    width: 40%;
+}
+.image-col{
+    width: 60%;
+    align-items: center;
+}
+.content-col h1{
+    font-size: 7vmin;
+    color: #484872;
+}
+.content-col .line{
+   margin-left: -1px        ;
+}
+.content-col p{
+    padding: 0;
+    margin: 10px auto;
+    border-bottom: 1px solid #484872;
+}
+body {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .btn-btn {
+    background-color: #fc036b;
+    color: #f8f9fa;
+    border-style: none;
+   margin-left: 600px;
+  }
+  
+  .btn-btn:hover {
+    transform: scale(1.3);
+    transition: 0.3s;
+    background-color: #fc036b;
+    color: #f8f9fa;
+  }
+section{
+    margin: 10px;
+}
+footer{
+    height: 300px;
+}
+.foot1 .list{
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 20px;
+}
+.foot2 .list{
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 20px;
+}
+.foot3 .list{
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 20px;
+}
+.foot4 .list{
+    text-decoration: none;
+    padding: 20px;
+    margin-left: 20px;
+}
+.foot1 .list li{
+    padding: 5px;
+}
+.foot2 .list li{
+    padding: 5px;
+}
+.foot3 .list li{
+    padding: 5px;
+}
+
+.foot1 h3{
+    border-left: 5px solid #fc036b;
+    margin-left: 40px;
+}
+.foot2 h3{
+    border-left: 5px solid #fc036b;
+    margin-left: 40px;
+}
+.foot3 h3{
+    border-left: 5px solid #fc036b;
+    margin-left: 40px;
+}
+.foot4 h3{
+    border-left: 5px solid #fc036b;
+    margin-left: 40px;
+}
+.foot1 .list li:hover{
+    color: #fc036b;
+    cursor: pointer;
+}
+.foot2 .list li:hover{
+    color: #fc036b;
+    cursor: pointer;
+}
+.foot3 .list li:hover{
+    color: #fc036b;
+    cursor: pointer;
+}
+.foot4 div{
+    margin-left: 20px;
+}
+.foot4 div i{
+    margin: 20px;
+    height: 50px;
+}
+.foot4 div i:hover{
+    color: #fc036b;
+}
